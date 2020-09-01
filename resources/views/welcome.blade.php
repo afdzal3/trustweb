@@ -126,6 +126,7 @@
                     <div class="col-lg-6 border smaller05"
                         style="background-image:url('/welcome/img/home.png');background-size: cover;">
 
+<<<<<<< HEAD
                         <div class="ml-3 mt-5 ">
                             <div class="section-header">
                                 <h2>ABOUT TRUST.</h2>
@@ -140,6 +141,46 @@
 
                             <div class="font-hani">
                                 <p>
+=======
+                    <div class="col-lg-6 content text-justify">
+                        <div class="section-header">
+                            <h2>AGILE OFFICE ..</h2>
+                        </div>
+
+                        <h3>A GIT AGILE DEVELOPMENT CENTRE.</h3>
+                        <span>In order for GIT to be more effective in delivering high quality solution with faster
+                            delivery,
+                            teamwork is crucial. We need to change the way we work.how we deal with each other. We need
+                            to be more
+                            collaborative</span>
+
+                        <ul>
+                            <li><i class="ion-android-checkmark-circle"></i>
+                                <b>SPACE OPTIMIZATION:</b>
+                                Less square footage required to host the employees. Bring your laptop only will be
+                                adhered! (staff will
+                                be provided drawer to keep their belonging but it is not dedicated)
+                                .</li>
+                            <li><i class="ion-android-checkmark-circle"></i>
+                                <b>PROMOTE 5S:</b>
+                                Safety and good housekeeping practices in all office space. A must criteria for
+                                Hot-Desking
+                            </li>
+                            <li><i class="ion-android-checkmark-circle"></i>
+                                <b> FLEXIBILITY:</b>
+                                Don’t have to commit to a single layout – will come in handy during structure
+                                re-organization.
+                            </li>
+                            <li><i class="ion-android-checkmark-circle"></i>
+                                <b>FREE & EASY:</b>
+                                We determine the floor, you determine your place. Get to know your new neighbor
+                                everyday!
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+>>>>>>> 62bb3d89a2c5da6dc7256995315c052335453877
 
                                     <b>SPACE OPTIMIZATION:</b>
                                     Less square footage required to host the employees. Bring your laptop only will be
