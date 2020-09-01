@@ -9,7 +9,7 @@
 <div class="container-fluid">
     <div class="row justify-content-center no-gutters">
           @if($isvisitor == false)
-          <div class="col-lg-5">
+          <div class="col-lg-5 no-gutters">
             <div class="card m-1">
                 <div class="card-header">Add Diary Entry. </div>
                 <div class="card-body">
@@ -105,7 +105,7 @@
               <div class="card-header">Entry for {{ $recdate }}. Total hours: {{ $dfobj->actual_hours }}. Start work time: {{ $early->toTimeString() }}</div>
               <div class="card-body">
                 <div class="table-responsive">
-                  <table id="taskdetailtable" class="table table-striped table-bordered table-hover"  style="white-space: nowrap;">
+                  <table id="taskdetailtable" class="table table-striped table-bordered table-hover w-100"  style="white-space: nowrap;">
                     <thead>
                       <tr>
                         <th scope="col">Date Entered</th>
@@ -172,9 +172,9 @@
             </div>
             <form method="POST" action="{{ route('staff.editact', [], false) }}">
               @csrf
-              <div class="modal-body">
+              <div class="modal-body ">
                 <input type="hidden" value="0" name="id" id="edit-id" />
-                <div class="form-group row">
+                <div class="form-group row ">
                   <label for="edit-name" class="col-sm-4 col-form-label text-sm-right">Activity Tag</label>
                   <input type="text" class="form-control col-sm-6" id="edit-at"  disabled>
                 </div>
