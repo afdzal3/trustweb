@@ -91,6 +91,14 @@
 }
 </style>
 
+
+
+
+
+
+
+
+
 <div class="container">
     @if(isset($alert))
     <div class="alert alert-{{$alert_class}} alert-dismissible">
@@ -104,7 +112,7 @@
 
             <div class="col-md-12">
 
-            
+
                 <h2> HOW ARE YOU FEELING NOW? </h2>
             </div>
             <div>
@@ -198,6 +206,27 @@
           </div>
         </div> -->
             <!-- </div> -->
+            <p></p>
+            <div class="col-md4 m-3">
+                <div class="btn-group">
+                    <button type="button button-primary" class="btn" style="border-radius: 10em 0px 0px 10em;">
+                        <span class="p-3 text-secondary">Powered By</span>
+                    </button>
+                    <button type="button" class="btn ">
+                        <img src="/images/smile/logo.svg"></button>
+                        <button type="button p-3" class="btn ">
+                        <img class="img-fluid" width="45em" src="/images/smile/floaticon.png">
+                        </button>
+
+                    <button type="button button-primary" class="btn p-3" style="border-radius: 0em 10em 10em 0em;">
+                       
+                    </button>
+
+
+                </div>
+            </div>
+
+
         </div>
     </div>
 </div>
